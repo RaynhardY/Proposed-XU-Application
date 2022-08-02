@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form_login_admin</class>
+ <widget class="QWidget" name="Form_login_admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>988</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="toolTipDuration">
+   <number>0</number>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(41, 50, 66);</string>
+  </property>
+  <widget class="QFrame" name="frame_admin">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>10</y>
+     <width>1521</width>
+     <height>971</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QStackedWidget" name="Pages_widgets_admin">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>0</y>
+      <width>1531</width>
+      <height>971</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="Student_Appointments">
+     <widget class="QGroupBox" name="groupBox_7_a_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>1521</width>
+        <height>971</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="title">
+       <string>STUDENT APPONTMENTS</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QTableWidget" name="tableWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>1501</width>
+         <height>921</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>183</number>
+       </attribute>
+       <attribute name="verticalHeaderDefaultSectionSize">
+        <number>80</number>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>6</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>7</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>8</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>10</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>Appointment ID</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Student ID</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Priority Number</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Purpose</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Teacher</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Date</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Status</string>
+        </property>
+       </column>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Guest_Appointments">
+     <widget class="QGroupBox" name="groupBox_7_a_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>1521</width>
+        <height>971</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="title">
+       <string>GUEST APPOINTMENTS</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QTableWidget" name="tableWidget_6">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>1501</width>
+         <height>921</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>183</number>
+       </attribute>
+       <attribute name="verticalHeaderDefaultSectionSize">
+        <number>80</number>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>6</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>7</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>8</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>10</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>Appointment ID</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>First Name</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Last Name</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Contact Number</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Faculty</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Purpose</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Priority Number</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Status</string>
+        </property>
+       </column>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="StudentAccounts">
+     <widget class="QGroupBox" name="groupBox_admin">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>1521</width>
+        <height>971</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="title">
+       <string>STUDENT ACCOUNTS</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>1501</width>
+         <height>931</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>147</number>
+       </attribute>
+       <attribute name="horizontalHeaderMinimumSectionSize">
+        <number>77</number>
+       </attribute>
+       <attribute name="verticalHeaderMinimumSectionSize">
+        <number>88</number>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>6</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>7</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>8</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>9</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>10</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>ID</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>First Name</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Last Name</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Department</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Username</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Password</string>
+        </property>
+       </column>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="FacultyAccounts">
+     <widget class="QGroupBox" name="groupBox_6_a">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>1521</width>
+        <height>971</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="title">
+       <string>FACULTY ACCOUNTS</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QTableWidget" name="facultyWidget">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>1501</width>
+         <height>931</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <property name="editTriggers">
+        <set>QAbstractItemView::NoEditTriggers</set>
+       </property>
+       <attribute name="horizontalHeaderDefaultSectionSize">
+        <number>163</number>
+       </attribute>
+       <attribute name="verticalHeaderMinimumSectionSize">
+        <number>98</number>
+       </attribute>
+       <row>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>6</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>7</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>8</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>10</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>ID</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>First Name</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Last Name</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Department</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Username</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Password</string>
+        </property>
+       </column>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="RegisterFaculty">
+     <widget class="QGroupBox" name="groupBox_7_a_3">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>130</y>
+        <width>831</width>
+        <height>781</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="title">
+       <string>REGISTER FACULTY</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <widget class="QComboBox" name="combobox_department">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>320</y>
+         <width>371</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>--Select Department---</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Information Technology</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Computer Science</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Information Systems</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="button_createaccount">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>620</y>
+         <width>271</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	border: 2px solid rgb(60, 74, 89);
+	border-radius: 20px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	background-color: rgb(44, 58, 73);
+}
+
+QPushButton:hover{
+	border: 2px solid rgb(188, 202, 217);
+}</string>
+       </property>
+       <property name="text">
+        <string>Create Account</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="entry_firstname">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>80</y>
+         <width>461</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+	border: 2px solid rgb(60, 74, 89);
+	border-radius: 20px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	background-color: rgb(44, 58, 73);
+}
+
+QLineEdit:hover{
+	border: 2px solid rgb(188, 202, 217);
+}
+
+QLineEdit:focus{
+	border: 2px solid rgb(156, 170, 185);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="placeholderText">
+        <string>First Name</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="entry_lastname">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>180</y>
+         <width>461</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+	border: 2px solid rgb(60, 74, 89);
+	border-radius: 20px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	background-color: rgb(44, 58, 73);
+}
+
+QLineEdit:hover{
+	border: 2px solid rgb(188, 202, 217);
+}
+
+QLineEdit:focus{
+	border: 2px solid rgb(156, 170, 185);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="placeholderText">
+        <string>Last Name</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="entry_username">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>390</y>
+         <width>461</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+	border: 2px solid rgb(60, 74, 89);
+	border-radius: 20px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	background-color: rgb(44, 58, 73);
+}
+
+QLineEdit:hover{
+	border: 2px solid rgb(188, 202, 217);
+}
+
+QLineEdit:focus{
+	border: 2px solid rgb(156, 170, 185);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="placeholderText">
+        <string>School ID</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="entry_password">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>490</y>
+         <width>461</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+	border: 2px solid rgb(60, 74, 89);
+	border-radius: 20px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	background-color: rgb(44, 58, 73);
+}
+
+QLineEdit:hover{
+	border: 2px solid rgb(188, 202, 217);
+}
+
+QLineEdit:focus{
+	border: 2px solid rgb(156, 170, 185);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+       <property name="placeholderText">
+        <string>Password</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>270</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(123, 138, 149);</string>
+       </property>
+       <property name="text">
+        <string>-- Department --</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_profile">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>371</width>
+     <height>961</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 86, 145); 
+background-color: rgb(104, 119, 148);
+ border: 0px solid; border-radius: 12px</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="profilepic">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>361</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../img/welcome.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_loginas">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>321</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>You are Logged as:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="adminlabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>450</y>
+      <width>351</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_student_appointment">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>510</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: 2px solid rgb(60, 74, 89);
+	border-radius: 20px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	background-color: rgb(44, 58, 73);
+}
+
+QPushButton:hover{
+	border: 2px solid rgb(188, 202, 217);
+}</string>
+    </property>
+    <property name="text">
+     <string>Student Appointments</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_studentacc">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>650</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: 2px solid rgb(60, 74, 89);
+	border-radius: 20px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	background-color: rgb(44, 58, 73);
+}
+
+QPushButton:hover{
+	border: 2px solid rgb(188, 202, 217);
+}</string>
+    </property>
+    <property name="text">
+     <string>Student Accounts</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_facultyacc">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>720</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: 2px solid rgb(60, 74, 89);
+	border-radius: 20px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	background-color: rgb(44, 58, 73);
+}
+
+QPushButton:hover{
+	border: 2px solid rgb(188, 202, 217);
+}</string>
+    </property>
+    <property name="text">
+     <string>Faculty Accounts</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_registerfaculty">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>790</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: 2px solid rgb(60, 74, 89);
+	border-radius: 20px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	background-color: rgb(44, 58, 73);
+}
+
+QPushButton:hover{
+	border: 2px solid rgb(188, 202, 217);
+}</string>
+    </property>
+    <property name="text">
+     <string>Register Faculty</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_logout">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>860</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: 2px solid rgb(60, 74, 89);
+	border-radius: 20px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	background-color: rgb(44, 58, 73);
+}
+
+QPushButton:hover{
+	border: 2px solid rgb(188, 202, 217);
+}</string>
+    </property>
+    <property name="text">
+     <string>LOGOUT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_guest_appointment">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>580</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: 2px solid rgb(60, 74, 89);
+	border-radius: 20px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	background-color: rgb(44, 58, 73);
+}
+
+QPushButton:hover{
+	border: 2px solid rgb(188, 202, 217);
+}</string>
+    </property>
+    <property name="text">
+     <string>Guest Appointments</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

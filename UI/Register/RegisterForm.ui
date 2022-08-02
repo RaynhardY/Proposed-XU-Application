@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form_register</class>
+ <widget class="QWidget" name="Form_register">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>691</width>
+    <height>830</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>691</width>
+    <height>830</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>691</width>
+    <height>830</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	background-color: rgb(41, 50, 66);
+}</string>
+  </property>
+  <widget class="QPushButton" name="button_createaccount">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>600</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>21</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border: 2px solid rgb(60, 74, 89);
+	border-radius: 20px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	background-color: rgb(44, 58, 73);
+}
+
+QPushButton:hover{
+	border: 2px solid rgb(188, 202, 217);
+}</string>
+   </property>
+   <property name="text">
+    <string>Register</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_return_reg">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border: 2px solid rgb(60, 74, 89);
+	border-radius: 20px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	background-color: rgb(44, 58, 73);
+}
+
+QPushButton:hover{
+	border: 2px solid rgb(188, 202, 217);
+}</string>
+   </property>
+   <property name="text">
+    <string>Return</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="combobox_department">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>310</y>
+     <width>321</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>201</width>
+     <height>31</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="currentText">
+    <string>---Select----</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>---Select----</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Information Technology</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Computer Science</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Information Systems</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="entry_firstname">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>110</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	border: 2px solid rgb(60, 74, 89);
+	border-radius: 20px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	background-color: rgb(44, 58, 73);
+}
+
+QLineEdit:hover{
+	border: 2px solid rgb(188, 202, 217);
+}
+
+QLineEdit:focus{
+	border: 2px solid rgb(156, 170, 185);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>First Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="entry_lastname">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>190</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	border: 2px solid rgb(60, 74, 89);
+	border-radius: 20px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	background-color: rgb(44, 58, 73);
+}
+
+QLineEdit:hover{
+	border: 2px solid rgb(188, 202, 217);
+}
+
+QLineEdit:focus{
+	border: 2px solid rgb(156, 170, 185);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Last Name</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="entry_username">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>360</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	border: 2px solid rgb(60, 74, 89);
+	border-radius: 20px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	background-color: rgb(44, 58, 73);
+}
+
+QLineEdit:hover{
+	border: 2px solid rgb(188, 202, 217);
+}
+
+QLineEdit:focus{
+	border: 2px solid rgb(156, 170, 185);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Student ID</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="entry_password">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>440</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	border: 2px solid rgb(60, 74, 89);
+	border-radius: 20px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	background-color: rgb(44, 58, 73);
+}
+
+QLineEdit:hover{
+	border: 2px solid rgb(188, 202, 217);
+}
+
+QLineEdit:focus{
+	border: 2px solid rgb(156, 170, 185);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Password</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="entry_confirmpassword">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>520</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	border: 2px solid rgb(60, 74, 89);
+	border-radius: 20px;
+	color: #FFF;
+	padding: 0px 20px 0px 20px;
+	background-color: rgb(44, 58, 73);
+}
+
+QLineEdit:hover{
+	border: 2px solid rgb(188, 202, 217);
+}
+
+QLineEdit:focus{
+	border: 2px solid rgb(156, 170, 185);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="placeholderText">
+    <string>Confirm Password</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>270</y>
+     <width>301</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(123, 138, 149);</string>
+   </property>
+   <property name="text">
+    <string>-- Department --</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
